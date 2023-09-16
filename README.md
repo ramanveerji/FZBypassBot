@@ -159,26 +159,26 @@
             ```
         - _Build Docker image:_
             ```
-            docker build . -t fzbypass
+            sudo docker build . -t fzbypass
             ```
         - _Run the image:_
             ```
-            docker run fzbypass
+            sudo docker run fzbypass
             ```
         - _To stop the running image:_
             - Check Running Containers
                 ```
-                docker ps
+                sudo docker ps
                 ```
             - Get the ID and Stop the Container
                 ```
-                docker stop idxxxxx
+                sudo docker stop idxxxxx
                 ```
     - _Add `sudo` at the Start of Each Command if your CLI is rooted_
     - _Add all Config Data in `config.env`_
     - _Update your Repo Directly, Make sure to fill Up `UPSTREAM_REPO` & `UPSTREAM_BRANCH`_
         ```
-        docker restart idxxxxx
+        sudo docker restart idxxxxx
         ```
 
 ---
