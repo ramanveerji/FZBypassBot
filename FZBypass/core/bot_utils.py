@@ -33,13 +33,28 @@ def get_dl(link):
         return f"{Config.DIRECT_INDEX}/direct.aspx?id={get_gdriveid(link)}"
 
 def convert_time(seconds):
+    # Convert seconds to milliseconds
     mseconds = seconds * 1000
+    
+    # Define a list of tuples, each containing a period name (e.g., 'd' for days)
+    # and the corresponding number of milliseconds in that period.
     periods = [('d', 86400000), ('h', 3600000), ('m', 60000), ('s', 1000), ('ms', 1)]
-    result = ''
+    
+    # Initialize an empty list to store the result components
+    result_components = []
+    
+    # Iterate through the periods
     for period_name, period_seconds in periods:
         if mseconds >= period_seconds:
+            # Divide the remaining milliseconds by the number of milliseconds in the current period
             period_value, mseconds = divmod(mseconds, period_seconds)
-            result += f'{int(period_value)}{period_name}'
-    if result == '':
+            # Append the formatted period value and name to the result components list
+            result_components.append(f'{int(period_value)}{period_name}')
+    
+    # If the result components list is empty, return '0ms'
+    if not result_components:
         return '0ms'
-    return result
+    
+    # Join the result components with spaces and return the formatted result string
+    return ' '.join(result_components)
+
