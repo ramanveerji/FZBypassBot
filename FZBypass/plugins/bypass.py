@@ -17,25 +17,16 @@ from FZBypass.core.bot_utils import AuthChatsTopics, convert_time, BypassFilter
 
 @Bypass.on_message(command("start"))
 async def start_msg(client, message):
-    await message.reply(
-        f"""<b><i>FZ Bypass Bot!</i></b>
-    
-    <i>A Powerful Elegant Multi Threaded Bot written in Python... which can Bypass Various Shortener Links, Scrape links, and More ... </i>
-    
+    await message.reply(f'''Hi I am <b><i>RS Link Bypass Bot!</i></b>
+    <i>I can bypass Various Shortener Links, Scrape links, and More ... </i>  
     <i><b>Bot Started {convert_time(time() - BOT_START)} ago...</b></i>
 
-🛃 <b>Use Me Here :</b> @CyberPunkGrp <i>(Bypass Topic)</i>""",
+🏴‍☠️ <b>Use Me in Bypass World</b> 🏴‍☠️''',
         quote=True,
         reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("🎓 Dev", url="https://t.me/SilentDemonSD"),
-                    InlineKeyboardButton(
-                        "🔍 Deploy Own",
-                        url="https://github.com/SilentDemonSD/FZBypassBot",
-                    ),
-                ]
-            ]
+            [InlineKeyboardButton('🏴‍☠️ Bypass World 🏴‍☠️', url='https://t.me/+54GHlNstXvMzMWRl')],
+    [InlineKeyboardButton('📣 Our Channel 📣', url='https://telegram.me/rs_bro'), InlineKeyboardButton('🤵🏻 Contact Admin 🤵🏻', url="https://telegram.me/rs_m_bot")]
+])
         ),
     )
 
@@ -188,10 +179,8 @@ async def inline_query(client, query):
             InlineQueryResultArticle(
                 title="♻️ Bypass Usage: In Line",
                 input_message_content=InputTextMessageContent(
-                    """<b><i>FZ Bypass Bot!</i></b>
-    
-    <i>A Powerful Elegant Multi Threaded Bot written in Python... which can Bypass Various Shortener Links, Scrape links, and More ... </i>
-    
+                    '''Hi I am <b><i>RS Link Bypass Bot!</i></b>    
+    <i>I can bypass Various Shortener Links, Scrape links, and More ... </i>      
 🎛 <b>Inline Use :</b> !bp [Single Link]""",
                 ),
                 description="Bypass via !bp [link]",
@@ -199,7 +188,7 @@ async def inline_query(client, query):
                     [
                         [
                             InlineKeyboardButton(
-                                "FZ Channel", url="https://t.me/FXTorrentz"
+                                "Our Channel", url="https://telegram.me/rs_bro"
                             ),
                             InlineKeyboardButton(
                                 "Try Bypass", switch_inline_query_current_chat="!bp "
