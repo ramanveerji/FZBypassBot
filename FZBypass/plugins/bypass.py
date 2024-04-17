@@ -180,7 +180,7 @@ async def inline_query(client, query):
                 input_message_content=InputTextMessageContent(
                     '''Hi I am <b><i>RS Link Bypass Bot!</i></b>    
     <i>I can bypass Various Shortener Links, Scrape links, and More ... </i>      
-🎛 <b>Inline Use :</b> !bp [Single Link]""",
+🎛 <b>Inline Use :</b> !bp [Single Link]''',
                 ),
                 description="Bypass via !bp [link]",
                 reply_markup=InlineKeyboardMarkup(
