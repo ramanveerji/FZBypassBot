@@ -7,7 +7,7 @@ from urllib.parse import quote, urlparse
 from bs4 import BeautifulSoup
 from cloudscraper import create_scraper
 from curl_cffi.requests import Session as cSession
-from requests import Session, get as rget
+from requests import Session
 from aiohttp import ClientSession
 
 from FZBypass import Config
