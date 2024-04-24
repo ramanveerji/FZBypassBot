@@ -124,14 +124,14 @@ async def direct_link_checker(link, onlylink=False):
         )
     elif bool(match(r"https?:\/\/m.easysky\.\S+", link)):
         blink = await transcript(
-            link, "https://techy.veganab.co/", "https://camdigest.com/", 8
+            link, "https://techy.veganab.co/", "https://camdigest.com/", 5
         )
         blink = await transcript(
             link, "https://vip.linkbnao.com", "https://ffworld.xyz/", 2
         )
     elif bool(match(r"https?:\/\/.+\.tnlink\.\S+", link)):
         blink = await transcript(
-            link, "https://go.tnshort.net/", "https://market.finclub.in/", 0.8
+            link, "https://news.sagenews.in/", "https://knowstuff.in/", 5
         )
     elif bool(match(r"https?:\/\/link4earn\.\S+", link)):
         blink = await transcript(
@@ -310,7 +310,7 @@ async def direct_link_checker(link, onlylink=False):
             link, "https://insurance.yosite.net/", "https://yosite.net/", 10
         )
     elif bool(match(r"https?:\/\/.+\.anlinks\.\S+", link)):
-        blink = await transcript(link, "https://anlinks.in/", "https://dsblogs.fun/", 5)
+        blink = await transcript(link, "https://anlinks.in/", "https://dsblogs.fun/", 8)
     elif bool(match(r"https?:\/\/.+\.earn2me\.\S+", link)):
         blink = await transcript(
             link, "https://blog.filepresident.com/", "https://easyworldbusiness.com/", 5
@@ -345,11 +345,9 @@ async def direct_link_checker(link, onlylink=False):
     elif bool(match(r"https?:\/\/ouo\.\S+", link)):
         blink = await ouo(link)
     elif bool(match(r"https?:\/\/(shareus|shrs)\.\S+", link)):
-        blink = await shareus(link)
+        raise DDLException("Bypass Not Allowed !")
     elif bool(match(r"https?:\/\/(.+\.)?dropbox\.\S+", link)):
         blink = await dropbox(link)
-    elif bool(match(r"https?:\/\/uptobox\.\S+", link)):
-        blink = await uptobox(link)
     elif bool(match(r"https?:\/\/linkvertise\.\S+", link)):
         blink = await linkvertise(link)
     elif bool(match(r"https?:\/\/rslinks\.\S+", link)):
