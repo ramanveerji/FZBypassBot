@@ -80,7 +80,7 @@ async def direct_link_checker(link, onlylink=False):
         )
     elif bool(match(r"https?:\/\/.+\.tnshort\.\S+", link)):
         blink = await transcript(
-            link, "https://go.tnshort.net/", "https://jrlinks.in/", 4
+            link, "https://news.sagenews.in/", "https://knowstuff.in/", 4.9
         )
     elif bool(match(r"https?:\/\/(xpshort|push.bdnewsx|techymozo)\.\S+", link)):
         blink = await transcript(
@@ -151,7 +151,7 @@ async def direct_link_checker(link, onlylink=False):
         )
     elif bool(match(r"https?:\/\/mdisk\.\S+", link)):
         blink = await transcript(
-            link, "https://mdisk.pro", "https://m.meclipstudy.in/", 8
+            link, "https://mdisk.pro", "https://www.meclipstudy.in/", 5
         )
     elif bool(match(r"https?:\/\/(pkin|go.paisakamalo)\.\S+", link)):
         blink = await transcript(
@@ -198,13 +198,13 @@ async def direct_link_checker(link, onlylink=False):
         blink = await transcript(
             link, "https://go.linksly.co/", "https://en.themezon.net/", 5
         )
-    elif bool(match(r"https?:\/\/.+\.mdiskshortner\.\S+", link)):
+    elif bool(match(r"https?:\/\/(.+\.)?mdiskshortner\.\S+", link)):
         blink = await transcript(
-            link, "https://loans.yosite.net/", "https://yosite.net/", 10
+            link, "https://mdiskshortner.link", "https://yosite.net/", 0
         )
     elif bool(match(r"https?://(?:\w+\.)?rocklinks\.\S+", link)):
         blink = await transcript(
-            link, "https://insurance.techymedies.com/", "https://blog.disheye.com/", 5
+            link, "https://land.povathemes.com/", "https://blog.disheye.com/", 4.9
         )
     elif bool(match(r"https?:\/\/mplaylink\.\S+", link)):
         blink = await transcript(
@@ -244,7 +244,7 @@ async def direct_link_checker(link, onlylink=False):
         )
     elif bool(match(r"https?:\/\/v2links\.\S+", link)):
         blink = await transcript(link, "https://vzu.us/", "https://newsbawa.com/", 5)
-    elif bool(match(r"https?:\/\/kpslink\.\S+", link)):
+    elif bool(match(r"https?:\/\/(.+\.)?kpslink\.\S+", link)):
         blink = await transcript(
             link, "https://kpslink.in/", "https://infotamizhan.xyz/", 3.1
         )
@@ -327,7 +327,7 @@ async def direct_link_checker(link, onlylink=False):
         )
     elif bool(match(r"https?:\/\/adsfly\.\S+", link)):
         blink = await transcript(
-            link, "https://go.adsfly.in/", "https://loans.quick91.com/", 5
+            link, "https://go.adsfly.in/", "https://letest25.co/", 3
         )
     elif bool(match(r"https?:\/\/earn2short\.\S+", link)):
         blink = await transcript(
@@ -342,8 +342,17 @@ async def direct_link_checker(link, onlylink=False):
             link, "https://linkjust.com/", "https://forexrw7.com/", 3.1
         )
     elif bool(match(r"https?:\/\/pdiskshortener\.\S+", link)):
-        blink = await transcript(link, "https://pdiskshortener.com/", "", 10)
-
+        blink = await transcript(
+            link, "https://pdiskshortener.com/", "", 10
+        )
+    elif bool(match(r"https?:\/\/publicearn\.\S+", link)):
+        blink = await transcript(
+            link, "https://publicearn.com/", "https://careersides.com/", 4.9
+        )
+    elif bool(match(r"https?:\/\/modijiurl\.\S+", link)):
+        blink = await transcript(
+            link, "https://modijiurl.com/", "https://loanoffering.in/", 8
+        )
     elif bool(match(r"https?:\/\/ouo\.\S+", link)):
         blink = await ouo(link)
     elif bool(match(r"https?:\/\/(shareus|shrs)\.\S+", link)):
@@ -354,7 +363,7 @@ async def direct_link_checker(link, onlylink=False):
         blink = await linkvertise(link)
     elif bool(match(r"https?:\/\/rslinks\.\S+", link)):
         blink = await rslinks(link)
-    elif bool(match(r"https?:\/\/(bit|tinyurl|(.+\.)short|shorturl)\.\S+", link)):
+    elif bool(match(r"https?:\/\/(bit|tinyurl|(.+\.)short|shorturl|t)\.\S+", link)):
         blink = await shorter(link)
     elif bool(match(r"https?:\/\/appurl\.\S+", link)):
         blink = await appurl(link)

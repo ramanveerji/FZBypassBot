@@ -48,15 +48,15 @@
 
 | __Shortener Sites__ | __Status__ |__Last Updated__ |
 |:------------------:|:----------:|:----------------:|
-|`adrinolinks.com`|✅️| **Unknown**|
-|`adsfly.in`|✅️| **Unknown**|
+|`adrinolinks.com`|✅️| **01-05-2024**|
+|`adsfly.in`|✅️| **01-05-2024**|
 |`anlinks.in`|️✅️| **22-04-2024**|
-|`appurl.io`|✅️| **Unknown**|
+|`appurl.io`|✅️| **01-05-2024**|
 |`bindaaslinks.com`|✅️| **29-04-2024**|
-|`bit.ly` + `tinyurl.com` + `*.short.gy` + `shorturl.ac`|✅️| **Unknown**|
-|`bringlifes.com`|️️✅️| **Unknown**|
-|`dalink.in`|✅️| **Unknown**|
-|`disk.yandex.ru` + `yandex.com`|✅️| **Unknown**|
+|`bit.ly` + `tinyurl.com` + `*.short.gy` + `shorturl.ac` + `t.ly`|✅️| **01-05-2024**|
+|`bringlifes.com`|️️⚠️| **01-05-2024**|
+|`dalink.in`|️⚠️| **01-05-2024**|
+|`disk.yandex.ru` + `yandex.com`|✅️| **01-05-2024**|
 |`download.mdiskshortner.link`|✅️| **Unknown**|
 |`droplink.co`|✅️| **Unknown**|
 |`dtglinks.in`|✅️| **Unknown**|
@@ -72,10 +72,10 @@
 |`indianshortner.in`|✅️| **Unknown**|
 |`indyshare.net`|✅️| **Unknown**|
 |`instantearn.in`|✅️| **Unknown**|
-|`kpslink.in`|✅️| **Unknown**|
+|`kpslink.in`|✅️| **30-04-2024**|
 |`krownlinks.me`|✅️| **Unknown**|
 |`link.tnlink.in`|️✅️| **23-04-2024**|
-|`link.tnshort.net`|✅️| **Unknown**|
+|`link.tnshort.net`|✅️| **01-05-2024**|
 |`link.vipurl.in` + `vipurl.in` + `count.vipurl.in`|✅️| **Unknown**|
 |`link1s.com`|✅️| **Unknown**|
 |`link4earn.com` + `link4earn.in`|✅️| **Unknown**|
@@ -88,8 +88,10 @@
 |`linkyearn.com`|❌️| **Unknown**|
 |`m.easysky.in`|✅| **23-04-2024**|
 |`m.narzolinks.click`|✅️| **Unknown**|
-|`mdisk.pro`|✅️| **Unknown**|
+|`mdisk.pro`|✅️| **01-05-2024**|
+|`mdiskshortner`|✅| **30-04-2024**|
 |`mediafire.com`|✅️| **Unknown**|
+|`modijiurl.com`|️❌️| **01-05-2024**|
 |`moneycase.link`|✅️| **Unknown**|
 |`mplaylink.com`|️❌️| **Unknown**|
 |`omnifly.in.net`|✅️| **Unknown**|
@@ -98,7 +100,8 @@
 |`pandaznetwork.com`|✅️| **Unknown**|
 |`pdiskshortener.com`|✅️| **Unknown**|
 |`pkin.me` + `go.paisakamalo.in`|✅️| **Unknown**|
-|`rocklinks.net`|✅️| **Unknown**|
+|`publicearn.com`|❌️| **01-05-2024**|
+|`rocklinks.net`|✅️| **01-05-2024**|
 |`ronylink.com`|✅️| **24-04-2024**|
 |`rslinks.net`|❌️| **Unknown**|
 |`sheralinks.com`|✅️| **Unknown**|
@@ -107,7 +110,7 @@
 |`short2url.in`|✅️| **Unknown**|
 |`shortingly.com`|️✅️|️ **Unknown**|
 |`shrdsk.me`|️️✅️| **Unknown**|
-|`shrinke.me`|✅️| **Unknown**|
+|`shrinke.me`|✅️| **30-04-2024**|
 |`shrinkforearn.xyz`|️❌️| **Unknown**|
 |`sklinks.in` + `sklinks.tech`|✅️| **Unknown**|
 |`surl.li`|✅️| **Unknown**|
@@ -153,7 +156,7 @@
 |:------------:|:----------:|:----------------:|
 |`appdrive.*` **(File + Pack)**|✅️|**Unknown**|
 |`drivefire.co`|✅️|**Unknown**|
-|`gdflix.*`**(File + Pack)**|❌️|**Unknown**|
+|`*.gdflix.*`**(File + Pack)**|❌️|**Unknown**|
 ✅️|**Unknown**|
 |`hubdrive.lat` **(Instant Link)**|
 |`katdrive.org` **(Direct Download)**|✅️|**Unknown**|
